@@ -3,20 +3,20 @@ if ( !isset($meta) ) {
   $meta = [];
 }
 
-$meta['siteName'] = "BBB BLOG";
+$meta['siteName'] = "SITE2 BLOG";
 $meta['siteCanonicalUrl'] = $_SERVER['REQUEST_URI'];
-$meta['siteKeywords'] = "IT, Java, PHP, HTML, CSS, Javascript, MySQL, Linux";
+$meta['siteKeywords'] = "IT, Java, PHP, HTML, CSS, Javascript, VUE, IONIC, MySQL, Linux";
 
 if ( !isset($meta['pageGenDate']) ) {
   $meta['pageGenDate'] = date("Y-m-d") . 'T' . date("H:i:s") . 'Z';
 }
 
 if ( !isset($meta['siteSubject']) ) {
-  $meta['siteSubject'] = "IT 전문 블로그 플랫폼, BBB BLOG";
+  $meta['siteSubject'] = "IT 전문 블로그 SITE2";
 }
 
 if ( !isset($meta['siteDescription']) ) {
-  $meta['siteDescription'] = "IT 전문 블로그 플랫폼, BBB BLOG 입니다. 누구나 멋진 나만의 IT 블로그를 만들 수 있습니다.";
+  $meta['siteDescription'] = "IT 전문 블로그 SITE2 입니다. 열심히 하겟습니다!";
 }
 
 if ( !isset($meta['og:title']) ) {
