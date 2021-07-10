@@ -31,7 +31,7 @@ class Application
 
     function getEnvCode(): string
     {
-        if ($_SERVER['DOCUMENT_ROOT'] == '/web/2021_04_full/site00/public') {
+        if ($_SERVER['DOCUMENT_ROOT'] == '/web/site2/public') {
             return 'prod';
         }
 
@@ -40,7 +40,7 @@ class Application
 
     function getProdSiteDomain(): string
     {
-        return "bbb.oa.gg";
+        return "site2.cent1.oa.gg";
     }
 
     function getProdSiteProtocol(): string {
@@ -62,9 +62,9 @@ class Application
             $dbName = "php_blog_2021";
         } else {
             $dbHost = "127.0.0.1";
-            $dbId = "st__2021_04_full__site00";
-            $dbPw = "1234";
-            $dbName = "st__2021_04_full__site00";
+            $dbId = "siteLocal2";
+            $dbPw = "sbslocal123414";
+            $dbName = "site2";
         }
 
         $dbConn = mysqli_connect($dbHost, $dbId, $dbPw, $dbName) or die("DB CONNECTION ERROR");
