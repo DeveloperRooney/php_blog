@@ -22,6 +22,7 @@ class NeedLoginInterceptor extends Interceptor
             case 'usr/article/list':
             case 'usr/article/detail':
             case 'usr/home/aboutMe':
+            case 'usr/home/aboutMe2':
                 return;
         }
 
