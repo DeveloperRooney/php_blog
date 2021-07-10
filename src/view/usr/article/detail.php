@@ -45,7 +45,7 @@ $utterancPageIdentifier = "/usr/article/detail?id={$article['id']}";
       }
       </style>
       <script src="https://utteranc.es/client.js"
-        repo="jhs512/bbb_oa_gg_comment"
+        repo="jhs512/github.com-jhs512-php_blog_2021_deployment_3rd"
         issue-term="<?=$utterancPageIdentifier?>"
         theme="github-light"
         crossorigin="anonymous"
