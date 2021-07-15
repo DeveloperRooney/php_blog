@@ -14,6 +14,10 @@ class NeedLoginInterceptor extends Interceptor
             return;
         }
 
+        if ( str_starts_with($action, 'resource/') ) {
+            return;
+        }
+
         switch ($action) {
             case 'usr/member/login':
             case 'usr/member/doLogin':
