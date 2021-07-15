@@ -40,7 +40,7 @@ class Application
 
     function getProdSiteDomain(): string
     {
-        return "site2.cent1.oa.gg";
+        return "b.developer-han.site";
     }
 
     function getProdSiteProtocol(): string {
@@ -62,9 +62,9 @@ class Application
             $dbName = "php_blog_2021";
         } else {
             $dbHost = "127.0.0.1";
-            $dbId = "siteLocal2";
+            $dbId = "siteLocal02";
             $dbPw = "sbslocal123414";
-            $dbName = "site2";
+            $dbName = "site02";
         }
 
         $dbConn = mysqli_connect($dbHost, $dbId, $dbPw, $dbName) or die("DB CONNECTION ERROR");
