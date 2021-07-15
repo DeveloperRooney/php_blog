@@ -12,11 +12,11 @@ if ( !isset($meta['pageGenDate']) ) {
 }
 
 if ( !isset($meta['siteSubject']) ) {
-  $meta['siteSubject'] = "IT 전문 블로그 SITE2";
+  $meta['siteSubject'] = "개발자 수한 :: IT 블로그";
 }
 
 if ( !isset($meta['siteDescription']) ) {
-  $meta['siteDescription'] = "IT 전문 블로그 SITE2 입니다. 열심히 하겟습니다!";
+  $meta['siteDescription'] = "웹 개발자 수한의 블로그입니다!";
 }
 
 if ( !isset($meta['og:title']) ) {
